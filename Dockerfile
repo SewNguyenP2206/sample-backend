@@ -1,4 +1,4 @@
-FROM node:20-alpine
+FROM harbor-core.harbor.svc.cluster.local/dockerhub-cache/library/node:20-alpine
 WORKDIR /app
 COPY package.json .
 RUN npm install --production

@@ -19,6 +19,9 @@ pipeline {
           - name: docker-config
             secret:
               secretName: harbor-creds-dockerconfig
+              items:
+              - key: .dockerconfigjson
+                path: config.json
       '''
     }
   }

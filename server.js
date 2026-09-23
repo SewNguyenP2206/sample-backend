@@ -13,24 +13,4 @@ app.get('/health', (req, res) => {
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
-// test auto trigger jenkins Mon Sep 21 11:43:07 +07 2026
-// test auto trigger jenkins Mon Sep 21 11:51:40 +07 2026
-// test multibranch trigger
-// test multibranch trigger
-// test multibranch trigger
-// test multibranch trigger
-// test multibranch trigger
-// clean retest 1789984477
-// clean retest 1789984580
-// clean retest 1789984955
-// cXXXXXXXXXXXXXXXX
-// test after fixing owner+credentials
-// test after fixing owner+credentials
-// test after fixing owner+credentials
-// debug trigger 1789985374
-// debug trigger 1789986134
-// debug trigger 1789986787
-// debug trigger 1789987700
-// test poll scm 1790139459
-// test poll scm 1790139597
-\n //X
+

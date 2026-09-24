@@ -1,10 +1,19 @@
 {
-  "name": "sample-backend",
+  "name": "simple-backend",
   "version": "1.0.0",
+  "description": "Simple backend API with Docker support",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "dev": "node server.js"
   },
+  "keywords": [
+    "backend",
+    "express",
+    "docker"
+  ],
+  "author": "",
+  "license": "MIT",
   "dependencies": {
     "express": "^4.19.2"
   }
